@@ -1,5 +1,7 @@
 package com.test.labuladong.arraylink;
 
+import sun.misc.LRUCache;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -20,7 +22,6 @@ public class MinWindow {
 //        for (int i = 0; i < size; i++) {
 //            System.out.println(list.get(i));
 //        }
-
         int len = lengthOfLongestSubstring("asdfghjkllk");
         System.out.println("len="+len);
     }
